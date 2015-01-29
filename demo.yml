@@ -1,3 +1,5 @@
+spring.profiles: dev
+
 foo: bar
 qu: qux
 europe: france
@@ -8,3 +10,7 @@ time: slowed
 people: time
 luis: medina
 hello: world
+
+---
+spring.profiles: prod
+hello: brooklyn
